@@ -36,7 +36,7 @@ echo "------------------------------------------------"
 
 # Begin writing your script here
 
-/well/PROCARDIS/users/fyb425/project/single_cell/raw/sratoolkit.3.0.0-ubuntu64/bin/fastq-dump -v --gzip --split-3 SRR7722939.sra  
+/well/PROCARDIS/users/fyb425/project/single_cell/raw/sratoolkit.3.0.0-ubuntu64/bin/fastq-dump -v --gzip --split-files SRR7722937.sra  
 
 echo $JOB_ID
 
